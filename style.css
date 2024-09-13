@@ -1,0 +1,43 @@
+#gameSpace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+}
+.card {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color:rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+#gameInfo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#replayButton {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: black;
+    background-color: rosybrown;
+    text-align: center;
+    
+}
+#replayButton:hover {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: black;
+    background-color: grey;
+    text-align: center;
+}
